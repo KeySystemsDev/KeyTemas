@@ -34,3 +34,14 @@ footer .footer-mailchimp {
     background-color: #09355C;
     background-image: url(../img/833.png);
 }
+.modal-header {
+    display: block;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.contac-num{
+    margin-right: 25px;
+}

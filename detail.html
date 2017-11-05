@@ -6,6 +6,9 @@
     <title>Temas KS</title>
     <link rel="icon" href="img/Key-Systems-Mini-Logo.png" type="image/png">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
 <body>
@@ -23,9 +26,9 @@
         <li class="nav-item">
             <a class="nav-link" href="lista.html" title="Lista">Lista de temas</a>
         </li>
-        <li class="nav-item">
+        <!--<li class="nav-item">
             <a class="nav-link" href="#" title="Contacto">Contacto</a>
-        </li>
+        </li>-->
       </ul>
     </div>
   </div>
@@ -82,6 +85,11 @@
                 <i class="fa fa-download"></i> Descarga
               </a>
             </li>
+            <li class="list-inline-item">
+              <a data-toggle="modal" href="#myModal" class="btn btn-secondary">
+                <i class="fa fa-users"></i> Auto Administrable
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -90,7 +98,10 @@
           <h4>Tecnología</h4>
           <ul class="list-inline">
             <li class="list-inline-item">
-              <a href="https://github.com/twbs/bootstrap" class="btn btn-secondary"><i class="fa fa-github"></i> Bootstrap 3</a>
+              <a href="https://github.com/twbs/bootstrap" class="btn btn-secondary"><i class="fa fa-github"></i> Bootstrap 4</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/jquery/jquery" class="btn btn-secondary"><i class="fa fa-github"></i> JQuery </a>
             </li>
           </ul>
         </div>
@@ -177,6 +188,51 @@
     </div>
   </div>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Contactanos</h4>
+      </div>
+      <div class="modal-body">
+        <div class="card sb-card download-links">
+          <div class="card-body">
+            <h4>Temas auto administrables</h4>
+            <p>Si desea obtener uno de nuestros temas autoadministrable debe ponerse en contacto con nosotros a través de los siguientes medios.</p>
+            <p>Los precios y condiciones pueden variar según sus necesidades, uno de nuestros asesores le dará toda la información requerida para su proyecto. </p>
+          </div>
+        </div>
+        <div class="card sb-card download-links">
+          <div class="card-body">
+            <h4>Contactos</h4>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="tel:+584142667519" class="btn btn-secondary"><i class="fa fa-phone" aria-hidden="true"></i> +58 414 26 67 519 </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="tel:+584125568831" class="btn btn-secondary"><i class="fa fa-whatsapp" aria-hidden="true" style="color:#51c95d;"></i> +58 412 55 68 831 </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="tel:+56982565380" class="btn btn-secondary"><i class="fa fa-whatsapp" aria-hidden="true" style="color:#51c95d;"></i> +56 982 56 53 80 </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="malito:info@keysystemsca.com" class="btn btn-secondary"><i class="fa fa-envelope-o" aria-hidden="true" style="color:red;"></i> info@keysystemsca.com </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
